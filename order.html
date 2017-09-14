@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+	<link href="css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<form class="order">
+		<ul class="order-top">
+			<li class="flex">
+				<div class="order-title">商品分类：</div>
+				<div class="write">
+					<input type="radio" name="ban" id="ban1" value="" checked=""/><label for="ban1">密度板</label>
+					<input type="radio" name="ban" id="ban2" value="" style="margin-left: .9rem;"/><label for="ban2">刨花板</label>
+				</div>
+			</li>
+			<li class="flex">
+				<div class="order-title">品牌选择：</div>
+				<div class="write">
+					<div class="border-bottom">
+						<span>首选品牌</span>
+						<select name="" class="choose-brand">
+							<option value="">请选择</option>
+						</select>
+						<label class="unit fr fa fa-angle-down"></label>
+					</div>
+					<div>
+						<span>备选品牌</span>
+						<select name="" class="choose-brand">
+							<option value="">请选择</option>
+						</select>
+						<label class="unit fr fa fa-angle-down"></label>
+					</div>
+				</div>
+			</li>
+			<li class="flex">
+				<div class="order-title">规格尺寸：</div>
+				<div class="write">
+					<div class="border-bottom">
+						<span class="black3">长</span>
+						<input type="number" class="size" name="" id="" value="" />
+						<label class="unit fr">mm</label>
+					</div>
+					<div class="border-bottom">
+						<span class="black3">宽</span>
+						<input type="number" class="size" name="" id="" value="" />
+						<label class="unit fr">mm</label>
+					</div>
+					<div>
+						<span class="black3">厚</span>
+						<input type="number" class="size" name="" id="" value="" />
+						<label class="unit fr">mm</label>
+					</div>
+				</div>
+			</li>
+			<li class="flex">
+				<div class="order-title">环保等级：</div>
+				<div class="write">
+					<div class="border-bottom">
+						<select name="" style="width: 5rem;">
+							<option value="">请选择</option>
+						</select>
+						<label class="unit fr fa fa-angle-down"></label>
+					</div>
+					<div>
+						<span class="black3">甲醛释放量≤</span>
+						<input type="text" name="" id="" value="" style="width: 3.6rem;" />
+					</div>
+				</div>
+			</li>
+			<li class="flex">
+				<div class="order-title">密度：</div>
+				<div class="write">
+					<div>
+						<select name="" style="width: 4.2rem;">
+							<option value="">请选择</option>
+						</select>
+						g/cm<sup>3</sup><label class="unit fr fa fa-angle-down"></label>
+					</div>
+				</div>
+			</li>
+			<li class="flex">
+				<div class="order-title">定制数量：</div>
+				<div class="write">
+					<div class="border-bottom">
+						<input type="number" class="size" name="" id="" value="" />
+						<label class="unit fr">张</label>
+					</div>
+					<div>
+						<input type="text" class="size" name="" id="" value="" style="width: 3.6rem;" />
+						<label class="unit fr">m<sup>3</sup></label>
+					</div>
+				</div>
+			</li>
+			<li class="flex">
+				<div class="order-title">物理性能：</div>
+				<div class="write">
+					<input type="text" name="" id="" value="" />
+				</div>
+			</li>
+		</ul>
+		<ul class="order-range">
+			<li>
+				<span>表面结合强度 ≥</span>
+				<input type="number" class="range" name="" id="" value="" />
+				<label class="unit fr">MPa</label>
+			</li>
+			<li>
+				<span>静曲强度 ≥</span>
+				<input type="number" class="range" name="" id="" value="" />
+				<label class="unit fr">MPa</label>
+			</li>
+			<li>
+				<span>吸水膨胀率 ≤</span>
+				<input type="number" class="range" name="" id="" value="" />
+				<label class="unit fr">%</label>
+			</li>
+			<li>
+				<span>弹性模量 ≥</span>
+				<input type="number" class="range" name="" id="" value="" />
+				<label class="unit fr">MPa</label>
+			</li>
+			<li>
+				<span>内结合强度 ≥</span>
+				<input type="number" class="range" name="" id="" value="" />
+				<label class="unit fr">MPa</label>
+			</li>
+			<li>
+				<span>含水率 ≤</span>
+				<input type="number" class="range" name="" id="" value="" />
+				<label class="unit fr">%</label>
+			</li>
+			<li>
+				<span>握钉力(刨花板) ≤</span>
+				<input type="number" class="range" name="" id="" value="" />
+				<label class="unit fr">N</label>
+			</li>
+		</ul>
+		<p class="info border-bottom">以上选项不选默认国际数据</p>
+		<ul class="write-more">
+			<li>
+				<div class="more-title">
+					用途说明：
+				</div>
+				<textarea name="" rows="" cols="" placeholder="油漆、冷压、热压、弧形等"></textarea>
+			</li>
+			<li>
+				<div class="more-title">
+					表面用途：
+				</div>
+				<textarea name="" rows="" cols="" placeholder="亚光、砂光"></textarea>
+			</li>
+			<li>
+				<div class="more-title">
+					纤维要求：
+				</div>
+				<textarea name="" rows="" cols="" placeholder="自选或常规"></textarea>
+			</li>
+			<li>
+				<div class="more-title">
+					其他要求：
+				</div>
+				<textarea name="" rows="" cols="" placeholder="选填"></textarea>
+			</li>
+			<li>
+				<div class="more-title">
+					交货周期：
+				</div>
+				<input type="text" name="" id="" value="" style="width: 4.7rem;height: 1rem;" placeholder="必填(如遇特殊原因可延期)" />
+				<label class="unit fr">天</label>
+				<div class="clear"></div>
+			</li>
+			<li>
+				<div class="more-title">
+					产品包装：
+				</div>
+				<input type="text" class="more-input" name="" id="" value="" placeholder="自选或常规" />
+				<div class="clear"></div>
+			</li>
+			<li>
+				<div class="more-title">
+					交货地址：
+				</div>
+				<textarea name="" rows="" cols="" placeholder="必填"></textarea>
+			</li>
+			<li>
+				<div class="more-title">
+					联系人：
+				</div>
+				<input type="text" class="more-input" name="" id="" value="" />
+				<div class="clear"></div>
+			</li>
+			<li>
+				<div class="more-title">
+					手机：
+				</div>
+				<input type="text" class="more-input" name="" id="" value="" />
+				<div class="clear"></div>
+			</li>
+			<li>
+				<div class="more-title">
+					传真：
+				</div>
+				<input type="text" class="more-input" name="" id="" value="" />
+				<div class="clear"></div>
+			</li>
+		</ul>
+		<p class="order-info">＊作为定制产品，双方在协议签订后，由订货方预付30%订金，待发货后按照优板网协议支付剩余款项</p>
+		<button type="submit" class="order-sub">确认提交</button>
+	</form>
+	<div class="order-choose flex">
+		<a href="orderExp.html">定制说明</a>
+		<a href="">物流信息</a>
+	</div>
+	
+	<script src="js/fontSize.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
