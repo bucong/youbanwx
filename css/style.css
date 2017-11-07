@@ -1863,3 +1863,167 @@ body {
 .list-detail:last-child {
   border-bottom: none;
 }
+.spread .spacing {
+  height: .22rem;
+  background: #f7f7f7;
+}
+.spread .tit {
+  text-align: center;
+  padding: .3rem 0 .4rem 0;
+}
+.spread .tit a {
+  color: #1c76b5;
+  font-size: .4rem;
+  text-decoration: underline;
+}
+.spread .tit h2 {
+  font-size: .42rem;
+  color: #000;
+  font-weight: 300;
+  margin: .1rem 0 0 0;
+}
+.spread .spread-nav {
+  padding: .48rem 0 .32rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spread .spread-nav a {
+  display: block;
+  width: 3.74rem;
+  text-align: center;
+  margin: .1rem 0 .4rem 0;
+}
+.spread .spread-nav a img {
+  width: .98rem;
+  height: .98rem;
+}
+.spread .spread-nav a p {
+  font-size: .28rem;
+  color: #666;
+}
+.spread .spread-nav a hr {
+  width: .5rem;
+  height: 0;
+  border: none;
+  border-bottom: .03rem solid #e6e6e6;
+  margin: 0 auto;
+}
+.spread .introduce {
+  padding: 0 .24rem;
+}
+.spread .introduce h1 {
+  padding: .52rem 0 .34rem 0;
+  font-size: .32rem;
+  font-weight: 300;
+}
+.spread .introduce h1 span {
+  font-weight: 500;
+}
+.spread .introduce hr {
+  width: 3rem;
+  border: .02rem solid #eee;
+}
+.spread .introduce p {
+  font-size: .28rem;
+  margin-top: .4rem;
+  margin-bottom: 0;
+  line-height: .4rem;
+}
+.spread .consultation {
+  padding: 0 .24rem;
+}
+.spread .consultation h3 {
+  margin: .46rem 0 .3rem 0;
+  font-size: .4rem;
+  color: #1f97eb;
+  font-weight: 900;
+}
+.spread .consultation p {
+  font-size: .28rem;
+  color: #999;
+}
+.spread .consultation ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: .24rem 0;
+}
+.spread .consultation ul li span {
+  display: block;
+  width: 1rem;
+  font-size: .36rem;
+  color: #000;
+  padding-top: .26rem;
+}
+.spread .consultation ul li input {
+  width: 6rem;
+  height: .88rem;
+  margin: 0;
+  font-size: .28rem;
+}
+.spread .consultation ul li textarea {
+  width: 6rem;
+  margin: 0;
+  height: 1.68rem;
+  font-size: .28rem;
+}
+.spread .consultation button {
+  height: .9rem;
+  font-size: .36rem;
+  color: #fff;
+  background: #1f97eb;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin: .24rem 0 .46rem 0;
+}
+.spread .spread-tit {
+  text-align: center;
+}
+.spread .spread-tit h4 {
+  font-size: .42rem;
+  color: #fff;
+  font-weight: 900;
+  padding: .3rem 0 .16rem 0;
+  margin: 0;
+}
+.spread .spread-tit p {
+  color: #fff;
+  font-size: .3rem;
+  margin: 0;
+  padding-bottom: .32rem;
+}
+.spread .spread-advantage {
+  background: #1f97eb;
+  padding: 0 .24rem .4rem .24rem;
+}
+.spread .spread-contact {
+  background: #00cbc7;
+}
+.spread .spread-contact .contact {
+  height: 2.75rem;
+  background: url(../images/spread_24.png);
+  background-size: 7.5rem 2.75rem;
+  text-align: center;
+}
+.spread .spread-contact .contact h5 {
+  color: #fff;
+  margin: 0;
+  padding: .72rem 0 .5rem 0;
+  font-size: .36rem;
+  text-indent: .6rem;
+}
+.spread .spread-contact .contact a {
+  color: #fff;
+  font-size: .24rem;
+  text-decoration: underline;
+}
+.spread .spread-contact p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-size: .24rem;
+  line-height: .3rem;
+  padding: .2rem 0;
+}
